@@ -1,11 +1,11 @@
 function values(object) {
-    let valueArray = [];
-    for(let value in object) {
-        if(typeof object[value] !== 'function'){
-            valueArray.push(object[value]);
-        }
+  let valueArray = [];
+  for (let value in object) {
+    if (typeof object[value] !== "function") {
+      valueArray.push(object[value]);
     }
-    return valueArray;
+  }
+  return valueArray;
 }
 
 module.exports = values;

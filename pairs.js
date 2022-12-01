@@ -1,12 +1,12 @@
 function pairs(object) {
-    let keyValue = [];
+  let keyValue = [];
 
-    for (let keys in object) {
-        let pair = [keys,object[keys]];
-        keyValue.push(pair);
-    }
+  for (let keys in object) {
+    let pair = [keys, object[keys]];
+    keyValue.push(pair);
+  }
 
-    return keyValue;
+  return keyValue;
 }
 
 module.exports = pairs;
